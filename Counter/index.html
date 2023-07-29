@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COUNTER</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>COUNTER</h1>
+    <h2 id="count">0</h2>
+
+    <div class="buttons">
+      <img id="plus" src="img/plus.png" onclick="add_count()" />
+      <img id="sub" src="img/sub.png" onclick="sub_count()" />
+      <img id="reset" src="img/reset.png" onclick="reset_count()" />
+    </div>
+
+    <h4 id="warning">INVISIBLE</h4>
+
+    <script src="counter_functions.js"></script>
+  </body>
+</html>

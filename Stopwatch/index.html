@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="fashion.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="heading">
+        <h2>JAVASCRIPT STOPWATCH</h2>
+      </div>
+
+      <h2 id="displayTime">00:00:00:00</h2>
+      <div id="buttons">
+        <button id="start_btn" onclick="watchStart()">START</button>
+        <button id="stop_btn" onclick="actuallyStop()">STOP</button>
+        <button id="reset_btn" onclick="resetWatch()">RESET</button>
+      </div>
+    </div>
+    <script src="stopwatch_functions.js"></script>
+  </body>
+</html>

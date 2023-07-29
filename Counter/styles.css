@@ -1,0 +1,41 @@
+#plus {
+  width: 80px;
+  height: 80px;
+  border: solid 5px;
+  padding: 10px;
+}
+
+#sub {
+  width: 80px;
+  height: 80px;
+  border: solid 5px;
+  padding: 10px;
+}
+
+#reset {
+  width: 80px;
+  height: 80px;
+  border: solid 5px;
+  padding: 10px;
+}
+#count {
+  font-size: 140px;
+  margin-top: -50px;
+}
+
+
+#warning{
+font-size: 30px;
+visibility: hidden;
+
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  text-align: center;
+  margin-top: 200px;
+  background: orange;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+}

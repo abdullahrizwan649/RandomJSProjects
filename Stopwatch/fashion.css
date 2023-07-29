@@ -1,0 +1,42 @@
+#heading {
+  font: bold;
+  text-align: center;
+}
+
+body {
+  background: orange;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  top: 50%;
+  left: 50%;
+}
+
+#displayTime {
+  color: black;
+  border: solid 10px black;
+  padding: 18px 10 px;
+  display: inline;
+}
+
+#buttons {
+  margin-top: 70px;
+}
+button {
+  background: orange;
+  color: black;
+  border: solid 6px black;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+  &:hover {
+    background-color: black;
+    border: solid 1px black;
+    color: orange;
+  }
+}
