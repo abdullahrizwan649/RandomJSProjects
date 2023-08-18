@@ -1,0 +1,31 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: linear-gradient(to bottom, black, red);
+  color: #d2caca;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 200px;
+  color: black;
+  margin-top: -30px;
+  text-shadow: 0 0 10px red; /* Add a red text shadow as an outline */
+}
+
+.time {
+  font-size: 150px;
+  margin-top: -30px;
+  color: rgb(224, 221, 202);
+  text-shadow: 0 0 15px black; 
+}

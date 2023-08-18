@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WIN</title>
+    <link rel="stylesheet" href="win.css" />
+  </head>
+  <body>
+    <div class="congratulations-container">
+      <h1>YOU WON!</h1>
+      <img src="hangme/win.png" alt="" id="image_win" />
+      <button id="play_again_btn">PLAY AGAIN</button>
+    </div>
+    <script>
+      const playAgainBtn = document.getElementById("play_again_btn");
+
+      playAgainBtn.addEventListener("click", () => {
+        window.location.href = "index.html"; // Redirect to index.html when the button is clicked
+      });
+    </script>
+  </body>
+</html>

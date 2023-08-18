@@ -1,0 +1,90 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url("back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  font-size: 60px;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  background-color: rgb(154, 102, 221);
+  margin: 10px;
+}
+button:hover {
+  box-shadow: #fff 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+  font-size: 100px;
+  color: rgb(190, 117, 246);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.foot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blueviolet;
+  color: wheat;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  display: inline; /* Change float to display to avoid layout issues */
+  margin-right: 20px; /* Add some spacing between menu items */
+  position: relative; /* Required for pseudo-element positioning */
+  font-size: 25px;
+  color: bla;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  left: -12px; /* Adjust the distance of the line from the text */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 100%; /* Adjust the height of the line */
+  background-color: #000000; /* Line color */
+}
+
+li:first-child::before {
+  display: none; /* Hide the line before the first list item */
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* Apply different styles to the active link */
+li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}

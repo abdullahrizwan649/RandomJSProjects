@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WIN</title>
+    <link rel="stylesheet" href="lost.css" />
+  </head>
+  <body>
+    <div class="loser-container">
+      <img src="hangme/hang_8.png" alt="" />
+      <button id="play_again_btn">PLAY AGAIN</button>
+    </div>
+    <script>
+      const playAgainBtn = document.getElementById("play_again_btn");
+
+      playAgainBtn.addEventListener("click", () => {
+        window.location.href = "index.html"; // Redirect to index.html when the button is clicked
+      });
+    </script>
+  </body>
+</html>
