@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TipDaiBhai</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <label>KITNA BILL TOTAL</label>
+        <input type="number" id="amount-input" min="0" />
+        <input type="button" value="Calculate" onclick="calculateTip()" />
+      </div>
+      <div class="slidecontainer">
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="20"
+          class="slider"
+          id="myRange"
+        />
+        <span id="slider-text">PERCENTAGE: 20%</span>
+      </div>
+      <div class="results-container">
+        <div class="tip-amount" id="tip-amount">
+          <h1>TIP:</h1>
+        </div>
+        <div class="total-amount" id="total-amount">
+          <h1>TOTAL:</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
